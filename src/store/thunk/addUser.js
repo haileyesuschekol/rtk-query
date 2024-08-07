@@ -1,10 +1,11 @@
-import { asyncThunkCreator } from "@reduxjs/toolkit"
+import { createAsyncThunk } from "@reduxjs/toolkit"
 import axios from "axios"
 import { faker } from "@faker-js/faker"
-// import { nanoid } from "@reduxjs/toolkit"
-const addUser = asyncThunkCreator("users/add", async () => {
+import { nanoid } from "@reduxjs/toolkit"
+const addUser = createAsyncThunk("users/add", async () => {
   const response = await axios.post("http://localhost:3005/users", {
-    name: faker.name.fullName(),
+    name: faker.person.fullName(),
+    id: nanoid(),
   })
 
   return response.data

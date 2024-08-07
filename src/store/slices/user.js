@@ -30,7 +30,7 @@ const userSlice = createSlice({
       state.isLoading = false
       state.data.push(action.payload)
     })
-    builder.addCase(addUser.error, (state, action) => {
+    builder.addCase(addUser.rejected, (state, action) => {
       state.isLoading = false
       state.error = action.error
     })
