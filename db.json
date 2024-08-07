@@ -1,5 +1,5 @@
 {
-  "name": [],
+  "users": [{ "id": 1, "name": "jo" }],
   "albums": [],
   "photos": []
 }
