@@ -2,6 +2,7 @@ import { GoTrash } from "react-icons/go"
 import { removeUser } from "../store"
 import { useDispatch } from "react-redux"
 import { useState } from "react"
+import ExpandablePanel from "./ExpandablePanel"
 const UsersListItem = ({ user }) => {
   const [isLoading, setIsLoading] = useState(false)
   const [isError, setIsError] = useState(false)
@@ -18,22 +19,20 @@ const UsersListItem = ({ user }) => {
         setIsLoading(false)
       })
   }
-  return (
-    <div className="mb-2 border rounded">
-      <div className="flex p-2 justify-between items-center cursor-pointer">
-        <div className="flex flex-row items-center justify-between">
-          <button
-            className="mr-4"
-            onClick={() => handleUser(user)}
-            disabled={isLoading}
-          >
-            {isError ? "error" : <GoTrash />}
-          </button>
-          {user.name}
-        </div>
-      </div>
-    </div>
+
+  const header = (
+    <>
+      <button
+        className="mr-4"
+        onClick={() => handleUser(user)}
+        disabled={isLoading}
+      >
+        {isError ? "error" : <GoTrash />}
+      </button>
+      {user.name}
+    </>
   )
+  return <ExpandablePanel header={header}>Content</ExpandablePanel>
 }
 
 export default UsersListItem
