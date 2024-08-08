@@ -64,7 +64,9 @@ const UsersList = () => {
       <div className="flex flex-row justify-between m-3">
         <h1 className="m-2 text-xl">Users</h1>
         {creatingUserError && "error occur"}
-        <button onClick={handleUserAdd}>{btn}</button>
+        <button onClick={handleUserAdd} disabled={isCreatingUser}>
+          {btn}
+        </button>
       </div>
       {renderedUsers}
     </>
