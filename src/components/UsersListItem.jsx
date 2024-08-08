@@ -3,6 +3,7 @@ import { removeUser } from "../store"
 import { useDispatch } from "react-redux"
 import { useState } from "react"
 import ExpandablePanel from "./ExpandablePanel"
+import AlbumList from "./AlbumList"
 const UsersListItem = ({ user }) => {
   const [isLoading, setIsLoading] = useState(false)
   const [isError, setIsError] = useState(false)
@@ -32,7 +33,11 @@ const UsersListItem = ({ user }) => {
       {user.name}
     </>
   )
-  return <ExpandablePanel header={header}>Content</ExpandablePanel>
+  return (
+    <ExpandablePanel header={header}>
+      <AlbumList user={user} />
+    </ExpandablePanel>
+  )
 }
 
 export default UsersListItem
