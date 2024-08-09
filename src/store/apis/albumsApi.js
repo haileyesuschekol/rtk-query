@@ -1,6 +1,6 @@
-import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query"
-
-const albumApi = createApi({
+import { fetchBaseQuery } from "@reduxjs/toolkit/query"
+import { createApi } from "@reduxjs/toolkit/query/react"
+const albumsApi = createApi({
   reducerPath: "albums",
   baseQuery: fetchBaseQuery({
     baseUrl: "http://localhost:3005",
@@ -14,7 +14,7 @@ const albumApi = createApi({
             params: {
               userId: user.id,
             },
-            method: "Get",
+            method: "GET",
           }
         },
       }),
@@ -22,5 +22,5 @@ const albumApi = createApi({
   },
 })
 
-export const { useFetchAlbumsQuery } = albumApi
-export { albumApi }
+export const { useFetchAlbumsQuery } = albumsApi
+export { albumsApi }

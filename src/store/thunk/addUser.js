@@ -5,6 +5,7 @@ import { nanoid } from "@reduxjs/toolkit"
 const addUser = createAsyncThunk("users/add", async () => {
   const response = await axios.post("http://localhost:3005/users", {
     name: faker.person.fullName(),
+    // id: Math.floor(Math.random() * 2000),
     id: nanoid(),
   })
 
