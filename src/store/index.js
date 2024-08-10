@@ -10,13 +10,23 @@ import {
   useAddAlbumMutation,
   useRemoveAlbumMutation,
 } from "./apis/albumsApi"
+import { photosApi } from "./apis/photosApi"
+import {
+  useAddPhotoMutation,
+  useFetchphotosQuery,
+  useRemovePhotoMutation,
+} from "./apis/photosApi"
+
 export const store = configureStore({
   reducer: {
     users: userReducer,
     [albumsApi.reducerPath]: albumsApi.reducer,
+    [photosApi.reducerPath]: photosApi.reducer,
   },
   middleware: (getDefaultMiddleware) => {
-    return getDefaultMiddleware().concat(albumsApi.middleware)
+    return getDefaultMiddleware()
+      .concat(albumsApi.middleware)
+      .concat(photosApi.middleware)
   },
 })
 
@@ -24,3 +34,4 @@ setupListeners(store.dispatch)
 
 export { useFetchAlbumsQuery, useAddAlbumMutation, useRemoveAlbumMutation }
 export { fetchUsers, addUser, removeUser }
+export { useAddPhotoMutation, useFetchphotosQuery, useRemovePhotoMutation }
