@@ -1,26 +1,27 @@
 {
   "users": [
     {
-      "id": "BYuf0EWgs8wAU-J3FAAQ-",
-      "name": "Lindsey Durgan"
+      "id": "HpbqUVDqxVxDfl8OW3CW_",
+      "name": "Lamar Heidenreich"
     }
   ],
   "albums": [
     {
-      "id": "e6f6",
-      "userId": null,
-      "title": "Elegant Concrete Mouse"
-    },
-    {
-      "id": "9f55",
-      "userId": null,
-      "title": "Recycled Cotton Tuna"
-    },
-    {
-      "id": "4a87",
-      "userId": null,
-      "title": "Electronic Soft Bike"
+      "id": "1ddb",
+      "userId": "HpbqUVDqxVxDfl8OW3CW_",
+      "title": "Practical Bronze Keyboard"
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "id": "1d48",
+      "albumId": "1ddb",
+      "url": "https://loremflickr.com/150/150/abstract?lock=1873564288417792"
+    },
+    {
+      "id": "2f08",
+      "albumId": "1ddb",
+      "url": "https://loremflickr.com/150/150/abstract?lock=8154202524090368"
+    }
+  ]
 }

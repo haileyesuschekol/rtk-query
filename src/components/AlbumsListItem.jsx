@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { GoTrash } from "react-icons/go"
 import ExpandablePanel from "./ExpandablePanel"
 import { useRemoveAlbumMutation } from "../store"
@@ -7,7 +8,6 @@ const AlbumsListItem = ({ album }) => {
 
   const handleRemoveAlbum = (album) => {
     removeAlbum(album)
-    alb(album)
   }
 
   const header = (

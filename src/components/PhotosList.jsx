@@ -1,8 +1,9 @@
+/* eslint-disable react/prop-types */
 import { useFetchphotosQuery, useAddPhotoMutation } from "../store"
 import PhotosListItem from "./PhotosListItem"
 const PhotosList = ({ album }) => {
   const { data, error, isFetching } = useFetchphotosQuery(album)
-  const [addPhoto, AddPhotoresults] = useAddPhotoMutation()
+  const [addPhoto] = useAddPhotoMutation()
 
   const handleAddPhoto = (album) => {
     addPhoto(album)

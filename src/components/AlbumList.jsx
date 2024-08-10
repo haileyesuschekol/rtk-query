@@ -1,7 +1,9 @@
+/* eslint-disable react/prop-types */
 import { useFetchAlbumsQuery, useAddAlbumMutation } from "../store"
 import Skeleton from "./Skeleton"
 
 import AlbumsListItem from "./AlbumsListItem"
+// eslint-disable-next-line react/prop-types
 const AlbumList = ({ user }) => {
   const { data, error, isFetching } = useFetchAlbumsQuery(user)
   const [addAlbum, results] = useAddAlbumMutation()

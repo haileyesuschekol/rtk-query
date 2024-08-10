@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { GoTrash } from "react-icons/go"
 import { removeUser } from "../store"
 import { useDispatch } from "react-redux"
