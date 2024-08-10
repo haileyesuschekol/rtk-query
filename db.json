@@ -1,96 +1,24 @@
 {
   "users": [
     {
-      "id": "njlA7tCrYGmsmNqljFcv-",
-      "name": "Ricardo Kerluke"
-    },
-    {
-      "id": "zdhWCWiiPSVRJ4Pu-STRI",
-      "name": "Marc Jones"
-    },
-    {
       "id": "62n4GiC8zhQXM6mZxGaNt",
       "name": "Grady Champlin"
     },
     {
-      "id": "wPkx9_sKEKaj4fPw9tEWF",
-      "name": "Alfonso Satterfield V"
-    },
-    {
-      "id": "9n6cwj9wF_bZ79PZXdEGl",
-      "name": "Miss Pat Hodkiewicz V"
+      "id": "hSb859KR3F0MfZGc-pn11",
+      "name": "Saul Feest"
     }
   ],
   "albums": [
     {
-      "id": "1fcd",
-      "userId": "njlA7tCrYGmsmNqljFcv-",
-      "title": "Recycled Wooden Bike"
-    },
-    {
-      "id": "8be0",
-      "userId": "zdhWCWiiPSVRJ4Pu-STRI",
-      "title": "Handmade Wooden Mouse"
-    },
-    {
-      "id": "4398",
-      "userId": "zdhWCWiiPSVRJ4Pu-STRI",
-      "title": "Luxurious Granite Car"
-    },
-    {
-      "id": "a3bb",
-      "userId": "njlA7tCrYGmsmNqljFcv-",
-      "title": "Tasty Frozen Mouse"
-    },
-    {
-      "id": "5a7a",
+      "id": "6db2",
       "userId": "62n4GiC8zhQXM6mZxGaNt",
-      "title": "Sleek Granite Chips"
+      "title": "Small Frozen Table"
     },
     {
-      "id": "7f0b",
-      "userId": "62n4GiC8zhQXM6mZxGaNt",
-      "title": "Generic Wooden Keyboard"
-    },
-    {
-      "id": "aa3f",
-      "userId": "62n4GiC8zhQXM6mZxGaNt",
-      "title": "Bespoke Rubber Computer"
-    },
-    {
-      "id": "1b86",
-      "userId": "njlA7tCrYGmsmNqljFcv-",
-      "title": "Elegant Cotton Table"
-    },
-    {
-      "id": "8341",
-      "userId": "njlA7tCrYGmsmNqljFcv-",
-      "title": "Small Steel Ball"
-    },
-    {
-      "id": "7fa3",
-      "userId": "njlA7tCrYGmsmNqljFcv-",
-      "title": "Awesome Plastic Shirt"
-    },
-    {
-      "id": "59b1",
-      "userId": "njlA7tCrYGmsmNqljFcv-",
-      "title": "Sleek Wooden Pants"
-    },
-    {
-      "id": "5746",
-      "userId": "njlA7tCrYGmsmNqljFcv-",
-      "title": "Tasty Soft Car"
-    },
-    {
-      "id": "3a6a",
-      "userId": "njlA7tCrYGmsmNqljFcv-",
-      "title": "Fantastic Concrete Pizza"
-    },
-    {
-      "id": "fb4d",
-      "userId": "zdhWCWiiPSVRJ4Pu-STRI",
-      "title": "Small Wooden Shoes"
+      "id": "334f",
+      "userId": "hSb859KR3F0MfZGc-pn11",
+      "title": "Recycled Bronze Chicken"
     }
   ],
   "photos": []

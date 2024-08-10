@@ -5,7 +5,11 @@ import { fetchUsers } from "./thunk/fetchUsers"
 import { addUser } from "./thunk/addUser"
 import { removeUser } from "./thunk/removeUser"
 import { albumsApi } from "./apis/albumsApi"
-import { useFetchAlbumsQuery, useAddAlbumMutation } from "./apis/albumsApi"
+import {
+  useFetchAlbumsQuery,
+  useAddAlbumMutation,
+  useRemoveAlbumMutation,
+} from "./apis/albumsApi"
 export const store = configureStore({
   reducer: {
     users: userReducer,
@@ -18,5 +22,5 @@ export const store = configureStore({
 
 setupListeners(store.dispatch)
 
-export { useFetchAlbumsQuery, useAddAlbumMutation }
+export { useFetchAlbumsQuery, useAddAlbumMutation, useRemoveAlbumMutation }
 export { fetchUsers, addUser, removeUser }
