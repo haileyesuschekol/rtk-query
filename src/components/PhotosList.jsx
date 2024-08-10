@@ -22,7 +22,7 @@ const PhotosList = ({ album }) => {
   return (
     <div>
       <div className="m-2  flex flex-row items-center justify-between">
-        <h3 className="text-lg font-bold"></h3>
+        <h3 className="text-lg font-bold">pics by {album.title}</h3>
         <button onClick={() => handleAddPhoto(album)} disabled={isFetching}>
           + Add photo
         </button>

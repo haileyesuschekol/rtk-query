@@ -1,62 +1,26 @@
 {
   "users": [
     {
-      "id": "5WSuEZiGZQHBBbuFTvYKB",
-      "name": "Amber Adams-Farrell I"
+      "id": "BYuf0EWgs8wAU-J3FAAQ-",
+      "name": "Lindsey Durgan"
     }
   ],
   "albums": [
     {
-      "id": "ed99",
-      "userId": "5WSuEZiGZQHBBbuFTvYKB",
-      "title": "Sleek Plastic Bacon"
+      "id": "e6f6",
+      "userId": null,
+      "title": "Elegant Concrete Mouse"
     },
     {
-      "id": "3273",
-      "userId": "5WSuEZiGZQHBBbuFTvYKB",
-      "title": "Generic Metal Chicken"
+      "id": "9f55",
+      "userId": null,
+      "title": "Recycled Cotton Tuna"
     },
     {
-      "id": "c125",
-      "userId": "5WSuEZiGZQHBBbuFTvYKB",
-      "title": "Ergonomic Frozen Cheese"
+      "id": "4a87",
+      "userId": null,
+      "title": "Electronic Soft Bike"
     }
   ],
-  "photos": [
-    {
-      "id": "3095",
-      "albumId": null,
-      "url": "https://loremflickr.com/150.15/true/abstract"
-    },
-    {
-      "id": "9e63",
-      "albumId": null,
-      "url": "https://loremflickr.com/150.15/true/abstract"
-    },
-    {
-      "id": "f64d",
-      "albumId": null,
-      "url": "https://loremflickr.com/150.15/true/abstract"
-    },
-    {
-      "id": "f63c",
-      "albumId": null,
-      "url": "https://loremflickr.com/150.15/true/abstract"
-    },
-    {
-      "id": "0b7d",
-      "albumId": null,
-      "url": "https://loremflickr.com/150.15/true/abstract"
-    },
-    {
-      "id": "04db",
-      "albumId": null,
-      "url": "https://loremflickr.com/150/150/abstract?lock=3525866369843200"
-    },
-    {
-      "id": "c84e",
-      "albumId": null,
-      "url": "https://loremflickr.com/200/200/abstract?lock=8946543874801664"
-    }
-  ]
+  "photos": []
 }

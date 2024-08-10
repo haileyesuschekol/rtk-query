@@ -7,6 +7,7 @@ const AlbumsListItem = ({ album }) => {
 
   const handleRemoveAlbum = (album) => {
     removeAlbum(album)
+    alb(album)
   }
 
   const header = (

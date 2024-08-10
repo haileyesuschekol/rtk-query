@@ -4,13 +4,16 @@ import { useDispatch } from "react-redux"
 import { useState } from "react"
 import ExpandablePanel from "./ExpandablePanel"
 import AlbumList from "./AlbumList"
+
 const UsersListItem = ({ user }) => {
   const [isLoading, setIsLoading] = useState(false)
   const [isError, setIsError] = useState(false)
+
   const dispatch = useDispatch()
 
   const handleUser = (user) => {
     setIsLoading(true)
+
     dispatch(removeUser(user))
       .unwrap()
       .catch((err) => {
