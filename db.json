@@ -1,27 +1,74 @@
 {
   "users": [
     {
-      "id": 855,
+      "id": "855",
       "name": "Mr. Irving Wilderman III"
     },
     {
-      "id": 761,
+      "id": "761",
       "name": "Mrs. Alexandra McKenzie"
-    },
-    {
-      "id": 788,
-      "name": "Mr. Hubert Flatley"
-    },
-    {
-      "id": "RfF-pxme_qJvFULRg_SbX",
-      "name": "Owen Jacobs"
     }
   ],
   "albums": [
     {
       "id": "7",
       "title": "albumasdf",
-      "userId": "RfF-pxme_qJvFULRg_SbX"
+      "userId": null
+    },
+    {
+      "id": "8924",
+      "userId": null,
+      "title": "Tasty Wooden Salad"
+    },
+    {
+      "id": "6305",
+      "userId": null,
+      "title": "Elegant Rubber Gloves"
+    },
+    {
+      "id": "911b",
+      "userId": null,
+      "title": "Electronic Soft Salad"
+    },
+    {
+      "id": "86e9",
+      "userId": null,
+      "title": "Handcrafted Soft Gloves"
+    },
+    {
+      "id": "a618",
+      "userId": null,
+      "title": "Luxurious Rubber Sausages"
+    },
+    {
+      "id": "dc21",
+      "userId": null,
+      "title": "Luxurious Cotton Shirt"
+    },
+    {
+      "id": "2c14",
+      "userId": null,
+      "title": "Licensed Wooden Mouse"
+    },
+    {
+      "id": "d05a",
+      "userId": null,
+      "title": "Handcrafted Fresh Tuna"
+    },
+    {
+      "id": "3f77",
+      "userId": null,
+      "title": "Practical Fresh Keyboard"
+    },
+    {
+      "id": "e57b",
+      "userId": "761",
+      "title": "Luxurious Frozen Ball"
+    },
+    {
+      "id": "536d",
+      "userId": "761",
+      "title": "Unbranded Fresh Tuna"
     }
   ],
   "photos": []
