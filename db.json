@@ -7,18 +7,27 @@
     {
       "id": "hSb859KR3F0MfZGc-pn11",
       "name": "Saul Feest"
+    },
+    {
+      "id": "CPdFLp5u8Ab0DVWO6IulY",
+      "name": "Edward Marquardt"
     }
   ],
   "albums": [
     {
-      "id": "6db2",
-      "userId": "62n4GiC8zhQXM6mZxGaNt",
-      "title": "Small Frozen Table"
+      "id": "1871",
+      "userId": "hSb859KR3F0MfZGc-pn11",
+      "title": "Awesome Frozen Ball"
     },
     {
-      "id": "334f",
+      "id": "c4b5",
+      "userId": "62n4GiC8zhQXM6mZxGaNt",
+      "title": "Awesome Granite Soap"
+    },
+    {
+      "id": "b0a9",
       "userId": "hSb859KR3F0MfZGc-pn11",
-      "title": "Recycled Bronze Chicken"
+      "title": "Awesome Steel Shoes"
     }
   ],
   "photos": []

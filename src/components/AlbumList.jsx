@@ -1,10 +1,9 @@
 import { useFetchAlbumsQuery, useAddAlbumMutation } from "../store"
-import ExpandablePanel from "./ExpandablePanel"
 import Skeleton from "./Skeleton"
 
 import AlbumsListItem from "./AlbumsListItem"
 const AlbumList = ({ user }) => {
-  const { data, error, isLoading } = useFetchAlbumsQuery(user)
+  const { data, error, isFetching } = useFetchAlbumsQuery(user)
   const [addAlbum, results] = useAddAlbumMutation()
 
   const handleAddAlbum = (user) => {
@@ -12,7 +11,7 @@ const AlbumList = ({ user }) => {
   }
 
   let content
-  if (isLoading) {
+  if (isFetching) {
     content = <Skeleton times={3} />
   } else if (error) {
     content = <div>Error... </div>
